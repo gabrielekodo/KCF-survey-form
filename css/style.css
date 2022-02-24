@@ -1,0 +1,68 @@
+body {
+  margin: 30px;
+  font-family: "Baloo Thambi 2", cursive;
+  /* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Urbanist', sans-serif; */
+  color: #f4f4f4;
+}
+
+.container {
+  background-color: #f4f4f4;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.sub-title {
+  margin-left: 15px;
+  color: #333;
+}
+.sub-title h1 {
+  margin-bottom: 3px;
+}
+.sub-title p {
+  margin-top: 3px;
+}
+.survey-form {
+  max-width: 700px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #123456;
+}
+form {
+  margin-left: 30px;
+}
+.form-control {
+  margin-top: 10px;
+}
+.form-control input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+  width: 90%;
+  display: block;
+  margin-top: 5px;
+  border: 1.5px solid #111;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+button {
+  padding: 7px;
+  width: 100px;
+  border: 1.5px solid #333;
+  border-radius: 3px;
+  background-color: royalblue;
+  color: #fff;
+  cursor: pointer;
+}
